@@ -8,6 +8,7 @@ const Signature = () => {
             <ReactPlayer
             url = {SignatureAnimation}
             playing = {true}
+            muted
             />
         </div>
       );
