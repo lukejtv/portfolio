@@ -4,13 +4,31 @@
   box-sizing: border-box;
 }
 
-body {
+.top {
   background-color: black;
+  height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.App {
+.blue {
+  background-image: url("./assets/blue.png");
+  min-width: 100vh;
+  height: 130vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  font-size: 100px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 45rem;
 }
+
+.arrow{
+  color: white;
+  opacity: 0;
+}
+
