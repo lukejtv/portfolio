@@ -1,18 +1,13 @@
-import ReactPlayer from 'react-player'
-import SignatureAnimation from './animations/signature.mp4'
-
+import ReactPlayer from "react-player";
+import SignatureAnimation from "./assets/signature.mp4";
+import { motion } from "framer-motion";
 
 const Signature = () => {
-      return (
-        <div>
-            <ReactPlayer
-            url = {SignatureAnimation}
-            playing = {true}
-            muted
-            playsinline
-            />
-        </div>
-      );
-    };
+  return (
+    <motion.div animate={{ scale: 0.3 }} transition={{ delay: 2, duration: 2 }}>
+      <ReactPlayer url={SignatureAnimation} playing={true} muted playsinline />
+    </motion.div>
+  );
+};
 
-  export default Signature;
+export default Signature;
