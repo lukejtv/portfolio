@@ -9,6 +9,7 @@ const Signature = () => {
             url = {SignatureAnimation}
             playing = {true}
             muted
+            playsinline
             />
         </div>
       );
