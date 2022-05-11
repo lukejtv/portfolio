@@ -4,31 +4,54 @@
   box-sizing: border-box;
 }
 
-.top {
+.about {
   background-color: black;
-  height: 100vh;
-  min-width: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  height: 100vh;
 }
 
-.blue {
-  background-image: url("./assets/blue.png");
-  min-width: 100vh;
-  height: 130vh;
+.design {
+  background-color: black;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  font-size: 100px;
-  font-weight: bold;
+  height: 100vh;
+}
+
+.film {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.audio {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
   color: white;
-  padding-bottom: 45rem;
+  font-size: xx-large;
 }
 
 .arrow{
   color: white;
   opacity: 0;
 }
-
