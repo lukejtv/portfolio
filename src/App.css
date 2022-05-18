@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  font-size: x-large;
+}
+
 .about {
   background-color: black;
   display: flex;
