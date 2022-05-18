@@ -5,7 +5,8 @@ import FilmAnimation from "../assets/FILM_MP4.mp4";
 const Film = () => {
   return (
     <div className='film'>
-      <ReactPlayer url={FilmAnimation} playing={true} muted playsinline/>
+      <ReactPlayer url={FilmAnimation} playing={true} muted playsinline width='100%'
+          height='100%'/>
     </div>
   )
 }
