@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Contact = () => {
+
+const Contact = (props) => {
+
   return (
-    <div className='contact'>Contact</div>
+    <div ref={props.innerRef} className='contact'>Contact</div>
   )
 }
 

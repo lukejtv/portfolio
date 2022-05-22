@@ -3,10 +3,10 @@ import ReactPlayer from "react-player";
 import DesignAnimation from "../assets/DESIGN_MP4.mp4";
 
 
-const Design = () => {
+const Design = (props) => {
 
   return (
-    <div className="design">
+    <div ref={props.innerRef} className="design">
 
       <ReactPlayer
         url={DesignAnimation}

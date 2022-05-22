@@ -1,13 +1,14 @@
 import React from 'react'
 
-const Navigation = () => {
+const Navigation = (props) => {
+
+
   return (
     <div className='navigation'>
-      <div>About.</div>
-      <div>Design.</div>
-      <div>Film.</div>
-      <div>Audio.</div>
-      <div>Contact.</div>
+      <button onClick={props.designScroll} className='button'>Design.</button>
+      <button onClick={props.filmScroll} className='button'>Film.</button>
+      <button onClick={props.audioScroll} className='button'>Audio.</button>
+      <button onClick={props.contactScroll} className='button'>Contact.</button>
     </div>
   )
 }

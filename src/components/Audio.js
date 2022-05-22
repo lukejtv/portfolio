@@ -2,9 +2,9 @@ import React from "react";
 import ReactPlayer from "react-player";
 import AudioAnimation from "../assets/AUDIO_MP4.mp4";
 
-const Audio = () => {
+const Audio = (props) => {
   return (
-    <div className="audio">
+    <div ref={props.innerRef} className="audio">
       <ReactPlayer
         url={AudioAnimation}
         playing={true}

@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
+
 .navigation {
-  color: white;
+  background-color: black;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 50%;
-  font-size: x-large;
+  justify-content: center;
+  height: 10vh;
 }
 
 .about {
@@ -64,4 +64,11 @@
 .arrow{
   color: white;
   opacity: 0;
+}
+
+.button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 2%;
 }
