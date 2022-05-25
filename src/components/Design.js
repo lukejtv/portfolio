@@ -19,7 +19,7 @@ const Design = (props) => {
           muted
           playsinline
           width="100%"
-          height="100%"
+          height="90%"
         />
       </div>
     </div>

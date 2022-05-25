@@ -47,7 +47,7 @@ const App = () => {
         contactScroll={goToContactSection}
       />
       <About/>
-      <Design innerRef={designSection} />
+      <Design innerRef={designSection}/>
       <Film innerRef={filmSection}/>
       <Audio innerRef={audioSection} />
       <Contact innerRef={contactSection} />

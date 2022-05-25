@@ -28,7 +28,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  height: 150vh;
 }
 
 .film {
@@ -37,7 +37,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 100vh;
+  height: 150vh;
 }
 
 .audio {

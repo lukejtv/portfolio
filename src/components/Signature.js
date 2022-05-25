@@ -18,7 +18,7 @@ const Signature = () => {
           playing={inView}
           muted
           playsinline
-          width="90%"
+          width="100%"
           height="90%"
         />
       </div>
