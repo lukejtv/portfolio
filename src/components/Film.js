@@ -1,14 +1,29 @@
-import React from 'react'
+import React from "react";
 import ReactPlayer from "react-player";
 import FilmAnimation from "../assets/FILM_MP4.mp4";
 
-const Film = (props) => {
-  return (
-    <div ref={props.innerRef} className='film'>
-      <ReactPlayer url={FilmAnimation} playing={true} muted playsinline width='100%'
-          height='100%'/>
-    </div>
-  )
-}
+import { useInView } from 'react-intersection-observer';
 
-export default Film
+const Film = (props) => {
+  const { ref, inView } = useInView({
+    threshold: 0,
+  });
+
+  return (
+    <div ref={props.innerRef} className="film">
+      <div ref={ref}>
+        <ReactPlayer
+          url={FilmAnimation}
+          playing={inView}
+          muted
+          loop
+          playsinline
+          width="100%"
+          height="100%"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default Film;
