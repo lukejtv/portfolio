@@ -8,6 +8,7 @@ import Film from "./components/Film";
 import Navigation from "./components/Navigation";
 
 const App = () => {
+
   const designSection = useRef(null);
   const filmSection = useRef(null);
   const audioSection = useRef(null);

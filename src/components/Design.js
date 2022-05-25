@@ -11,7 +11,7 @@ const Design = (props) => {
 
   return (
     <div ref={props.innerRef} className="design">
-      <div ref={ref}>
+      <div ref={ref} style={{width: "50%"}}>
         <ReactPlayer
           url={DesignAnimation}
           playing={inView}
@@ -19,8 +19,13 @@ const Design = (props) => {
           muted
           playsinline
           width="100%"
-          height="90%"
+          height="60%"
         />
+      </div>
+      <div className="design-text">
+        <div style={{fontWeight: "bold", paddingBottom: 20}}>What makes a Luke J design?</div>
+        <div>Simply intuitive & intuitively simple.</div>
+        <div> You name it, he can create something unique and exciting.</div>
       </div>
     </div>
   );
