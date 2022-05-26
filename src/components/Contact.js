@@ -4,7 +4,10 @@ import React from 'react'
 const Contact = (props) => {
 
   return (
-    <div ref={props.innerRef} className='contact'>Contact</div>
+    <div ref={props.innerRef} className='contact'>
+      <div>Contact</div>
+      <input style={{marginBottom: "55%"}}></input>
+    </div>
   )
 }
 
