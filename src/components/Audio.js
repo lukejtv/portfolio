@@ -1,6 +1,7 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import AudioAnimation from "../assets/AUDIO_MP4.mp4";
+import DotAnimation from "../assets/DOT_MP4.mp4";
 
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
@@ -12,8 +13,16 @@ const Audio = (props) => {
 
   return (
     <div ref={props.innerRef} className="audio">
-  
       <div ref={ref}>
+        <ReactPlayer
+          url={DotAnimation}
+          playing={true}
+          loop
+          muted
+          playsinline
+          width="10%"
+          height="10%"
+        />
         <ReactPlayer
           url={AudioAnimation}
           playing={inView}
