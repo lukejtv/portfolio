@@ -5,7 +5,7 @@ const Contact = (props) => {
 
   return (
     <div ref={props.innerRef} className='contact'>
-      Contact
+      <div className='contact-block'></div>
     </div>
   )
 }
