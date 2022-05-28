@@ -19,7 +19,7 @@ const Film = (props) => {
           loop
           playsinline
           width="100%"
-          height="80%"
+          height="100%"
         />
       </div>
     </div>
