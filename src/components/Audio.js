@@ -13,7 +13,7 @@ const Audio = (props) => {
 
   return (
     <div ref={props.innerRef} className="audio">
-      <div ref={ref}>
+      <div ref={ref} className="audio-container">
         <ReactPlayer
           url={DotAnimation}
           playing={true}
@@ -22,6 +22,7 @@ const Audio = (props) => {
           playsinline
           width="10%"
           height="10%"
+          className="audio-dot"
         />
         <ReactPlayer
           url={AudioAnimation}

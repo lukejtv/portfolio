@@ -8,7 +8,6 @@ import Film from "./components/Film";
 import Navigation from "./components/Navigation";
 
 const App = () => {
-
   const designSection = useRef(null);
   const filmSection = useRef(null);
   const audioSection = useRef(null);
@@ -47,9 +46,9 @@ const App = () => {
         audioScroll={goToAudioSection}
         contactScroll={goToContactSection}
       />
-      <About/>
-      <Design innerRef={designSection}/>
-      <Film innerRef={filmSection}/>
+      <About />
+      <Design innerRef={designSection} />
+      <Film innerRef={filmSection} />
       <Audio innerRef={audioSection} />
       <Contact innerRef={contactSection} />
     </div>

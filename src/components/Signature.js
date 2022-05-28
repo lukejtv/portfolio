@@ -19,7 +19,7 @@ const Signature = () => {
           muted
           playsinline
           width="100%"
-          height="90%"
+          height="100%"
         />
       </div>
     </div>
