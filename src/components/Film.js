@@ -11,7 +11,7 @@ const Film = (props) => {
 
   return (
     <div ref={props.innerRef} className="film">
-      <div ref={ref}>
+      <div ref={ref} className="film-container">
         <ReactPlayer
           url={FilmAnimation}
           playing={inView}

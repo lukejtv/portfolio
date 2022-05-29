@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="about">
       <Signature/>
-      {/* <Arrow/> */}
+      {/* <Arrow/>  */}
     </div>
   );
 };
