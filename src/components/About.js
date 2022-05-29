@@ -6,8 +6,7 @@ import Arrow from "./Arrow";
 const About = () => {
   return (
     <div className="about">
-      <Signature/>
-      {/* <Arrow/>  */}
+      1
     </div>
   );
 };

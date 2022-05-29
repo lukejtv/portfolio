@@ -47,13 +47,13 @@ const App = () => {
 
   return (
     <div className="app">
-      <Navigation
+      {/* <Navigation
         aboutScroll={goToAboutSection}
         designScroll={goToDesignSection}
         filmScroll={goToFilmSection}
         audioScroll={goToAudioSection}
         contactScroll={goToContactSection}
-      />
+      /> */}
       <About/>
       <Design innerRef={designSection} />
       <Film innerRef={filmSection} />

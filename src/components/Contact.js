@@ -3,7 +3,15 @@ import React from "react";
 const Contact = (props) => {
   return (
     <div ref={props.innerRef} className="contact">
-      <form className="contact-block">
+      5
+    </div>
+  );
+};
+
+export default Contact;
+
+
+{/* <form className="contact-block">
         <div className="contact-title-text">Contact</div>
         <div className="contact-sub-text">
           For freelance projects, portfolio questions, and more.
@@ -19,9 +27,4 @@ const Contact = (props) => {
         >
           Submit
         </button>
-      </form>
-    </div>
-  );
-};
-
-export default Contact;
+      </form> */}

@@ -11,7 +11,14 @@ const Film = (props) => {
 
   return (
     <div ref={props.innerRef} className="film">
-      <div ref={ref} className="film-container">
+      3
+    </div>
+  );
+};
+
+export default Film;
+
+{/* <div ref={ref} className="film-container">
         <ReactPlayer
           url={FilmAnimation}
           playing={inView}
@@ -21,9 +28,4 @@ const Film = (props) => {
           width="100%"
           height="100%"
         />
-      </div>
-    </div>
-  );
-};
-
-export default Film;
+      </div> */}

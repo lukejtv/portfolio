@@ -13,7 +13,15 @@ const Audio = (props) => {
 
   return (
     <div ref={props.innerRef} className="audio">
-      <div ref={ref} className="audio-container">
+      4
+    </div>
+  );
+};
+
+export default Audio;
+
+
+{/* <div ref={ref} className="audio-container">
         <ReactPlayer
           url={DotAnimation}
           playing={true}
@@ -32,9 +40,4 @@ const Audio = (props) => {
           width="90%"
           height="90%"
         />
-      </div>
-    </div>
-  );
-};
-
-export default Audio;
+      </div> */}
