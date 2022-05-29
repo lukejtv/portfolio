@@ -4,13 +4,13 @@ import DesignAnimation from "../assets/DESIGN_MP4.mp4";
 
 import { useInView } from "react-intersection-observer";
 
-const Design = (props) => {
+const Design = () => {
   const { ref, inView } = useInView({
     threshold: 0,
   });
 
   return (
-    <div ref={props.innerRef} className="design">
+    <div className="design">
        2
     </div>
   );

@@ -6,13 +6,13 @@ import DotAnimation from "../assets/DOT_MP4.mp4";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
-const Audio = (props) => {
+const Audio = () => {
   const { ref, inView } = useInView({
     threshold: 0,
   });
 
   return (
-    <div ref={props.innerRef} className="audio">
+    <div className="audio">
       4
     </div>
   );
