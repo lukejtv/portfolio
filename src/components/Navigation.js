@@ -20,6 +20,9 @@ const Navigation = (props) => {
         <button onClick={props.contactScroll} className="button">
           Contact.
         </button>
+        <div className='FAB-container'>
+          <button className='FAB' onClick={props.aboutScroll}>^</button>
+        </div>
       </motion.div>
     </div>
   );

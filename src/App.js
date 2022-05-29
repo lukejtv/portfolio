@@ -6,13 +6,19 @@ import Audio from "./components/Audio";
 import Contact from "./components/Contact";
 import Film from "./components/Film";
 import Navigation from "./components/Navigation";
-import FAB from "./components/FAB"
 
 const App = () => {
   const designSection = useRef(null);
   const filmSection = useRef(null);
   const audioSection = useRef(null);
   const contactSection = useRef(null);
+
+  const goToAboutSection = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
 
   const goToDesignSection = () => {
     window.scrollTo({
@@ -41,14 +47,14 @@ const App = () => {
 
   return (
     <div className="app">
-      <FAB/>
       <Navigation
+        aboutScroll={goToAboutSection}
         designScroll={goToDesignSection}
         filmScroll={goToFilmSection}
         audioScroll={goToAudioSection}
         contactScroll={goToContactSection}
       />
-      <About />
+      <About/>
       <Design innerRef={designSection} />
       <Film innerRef={filmSection} />
       <Audio innerRef={audioSection} />

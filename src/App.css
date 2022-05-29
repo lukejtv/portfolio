@@ -175,3 +175,22 @@
   border-radius: 6px;
   outline: none;
 }
+
+
+.FAB-container {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+}
+
+.FAB {
+  background-color: white;
+  border-radius: 50%;
+  width: 4vw;
+  height: 4vw;
+  font-size: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
