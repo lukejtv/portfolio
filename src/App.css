@@ -11,6 +11,68 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: 100%;
+}
+
+.navigation {
+  background-color: black;
+  height: 10%;
+  width: 100%;
+}
+
+.about {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.design {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.film {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.audio {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.contact {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-block {
+  background-color: #28282a;
+  width: 60%;
+  height: 90%;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .arrow {
@@ -26,34 +88,11 @@
   font-size: large;
 }
 
-.navigation {
-  background-color: black;
-  height: 10%;
-}
-
 .buttonList {
   opacity: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
-}
-
-.about {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 800px;
-}
-
-.design {
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  height: 1500px;
 }
 
 .design-text {
@@ -66,22 +105,6 @@
   padding-right: 10%;
 }
 
-.film {
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 1200px;
-}
-
-.audio {
-  background-color: black;
-  height: 1200px;
-  width: 100%;
-  padding-top: 15vh;
-}
-
 .audio-container {
   display: flex;
   width: 100%;
@@ -90,27 +113,7 @@
 }
 
 .audio-dot {
- margin-right: 67%;
-}
-
-
-.contact {
-  background-color: black;
-  height: 800px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.contact-block {
-  background-color: #28282A;
-  width: 60%;
-  height: 90%;
-  border-radius: 5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin-right: 67%;
 }
 
 .contact-title-text {
@@ -172,5 +175,3 @@
   border-radius: 6px;
   outline: none;
 }
-
-

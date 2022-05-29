@@ -6,6 +6,7 @@ import Audio from "./components/Audio";
 import Contact from "./components/Contact";
 import Film from "./components/Film";
 import Navigation from "./components/Navigation";
+import FAB from "./components/FAB"
 
 const App = () => {
   const designSection = useRef(null);
@@ -40,6 +41,7 @@ const App = () => {
 
   return (
     <div className="app">
+      <FAB/>
       <Navigation
         designScroll={goToDesignSection}
         filmScroll={goToFilmSection}
