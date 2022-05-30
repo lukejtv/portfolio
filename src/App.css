@@ -1,3 +1,7 @@
+html {
+  scroll-snap-type: y mandatory;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,11 +18,6 @@
   width: 100%;
 }
 
-.app {
-  background-color: black;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-}
 
 .about {
   background-color: blue;
