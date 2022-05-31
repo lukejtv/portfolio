@@ -110,10 +110,13 @@ body {
   height: 90vh;
 }
 
-
-.audio-video {
+.audio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 90%;
-  height: 90vh;
+  height: 90%;
 }
 
 .contact-container {
@@ -122,7 +125,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 80%;
-  height: 80vh;
+  height: 80%;
 }
 
 .contact-title-text {
