@@ -7,9 +7,12 @@ html {
   padding: 0;
   box-sizing: border-box;
   font-family: acumin-pro, Arial;
-  font-size: 8vw;
   font-weight: 400;
   font-style: normal;
+}
+
+body {
+  background-color: black;
 }
 
 .navigation {
@@ -20,7 +23,7 @@ html {
 
 
 .about {
-  background-color: blue;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,7 +34,7 @@ html {
 }
 
 .design {
-  background-color: green;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,7 +45,7 @@ html {
 }
 
 .film {
-  background-color: red;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,7 +56,7 @@ html {
 }
 
 .audio {
-  background-color: orange;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,7 +67,7 @@ html {
 }
 
 .contact {
-  background-color: yellow;
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,55 +77,16 @@ html {
   scroll-snap-align: start;
 }
 
-.signature {
-  width: 100%;
-  height: 100%;
+.signature-video {
+  width: 90%;
+  height: 90vh;
 }
 
-
-
-
-
-.film-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80%;
-  height: 80%;
-}
-
-
-
-
-
-.contact-block {
-  background-color: #28282a;
-  width: 80%;
-  height: 80%;
-  border-radius: 5%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.arrow {
-  color: white;
-  opacity: 0;
-}
-
-.button {
-  color: white;
-  background-color: black;
-  border: none;
-  padding: 2%;
-  font-size: large;
-}
-
-.buttonList {
-  opacity: 0;
+.design-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .design-text {
@@ -135,18 +99,30 @@ html {
   justify-content: center;
 }
 
-.audio-container {
+.design-video {
+  width: 70%;
+  height: 70vh;
+}
+
+
+.film-video {
+  width: 90%;
+  height: 90vh;
+}
+
+
+.audio-video {
+  width: 90%;
+  height: 90vh;
+}
+
+.contact-container {
   display: flex;
-  width: 100%;
-  min-height: 100vh;
-  max-height: 100vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.audio-dot {
-  margin-right: 67%;
+  width: 80%;
+  height: 80vh;
 }
 
 .contact-title-text {
@@ -200,17 +176,55 @@ html {
   margin-top: 5%;
   margin-bottom: 2%;
   padding: 1%;
-  width: 25%;
+  width: 100px;
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
-  color: #24292e;
-  background-color: #34eb9b;
+  color: #ffffff;
+  background-color: #3994e3;
   border-radius: 6px;
   outline: none;
+  border: 0px;
+} 
+
+
+
+/* 
+
+
+
+.arrow {
+  color: white;
+  opacity: 0;
 }
 
-.FAB-container {
+.button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 2%;
+  font-size: large;
+}
+
+.buttonList {
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+*/
+
+/* .FAB-container {
   position: fixed;
   right: 2%;
   bottom: 2%;
@@ -226,7 +240,7 @@ html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* @media (orientation: portrait) {
   .film-container {

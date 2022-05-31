@@ -11,14 +11,8 @@ const Design = () => {
 
   return (
     <div className="design">
-       2
-    </div>
-  );
-};
-
-export default Design;
-
- {/* <div ref={ref} style={{width: "50%"}}>
+      <div ref={ref} className="design-container">
+        <div className="design-video">
           <ReactPlayer
             url={DesignAnimation}
             playing={inView}
@@ -26,11 +20,19 @@ export default Design;
             muted
             playsinline
             width="100%"
-            height="60%"
+            height="100%"
           />
         </div>
         <div className="design-text">
-          <div style={{fontWeight: "bold", paddingBottom: 20}}>What makes a Luke J design?</div>
+          <div style={{ fontWeight: "bold", paddingBottom: 20 }}>
+            What makes a Luke J design?
+          </div>
           <div>Simply intuitive & intuitively simple.</div>
           <div> You name it, he can create something unique and exciting.</div>
-        </div> */}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Design;
