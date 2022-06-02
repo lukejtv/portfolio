@@ -1,11 +1,11 @@
-import { useRef } from "react";
+//import { useRef } from "react";
 import "./App.css";
 import About from "./components/About";
 import Design from "./components/Design";
 import Audio from "./components/Audio";
 import Contact from "./components/Contact";
 import Film from "./components/Film";
-import Navigation from "./components/Navigation";
+//import Navigation from "./components/Navigation";
 
 const App = () => {
   // const designSection = useRef(null);
@@ -60,10 +60,10 @@ export default App;
 
 // innerRef={designSection}
 
- {/* <Navigation
-        aboutScroll={goToAboutSection}
-        designScroll={goToDesignSection}
-        filmScroll={goToFilmSection}
-        audioScroll={goToAudioSection}
-        contactScroll={goToContactSection}
-      /> */}
+//  <Navigation
+//         aboutScroll={goToAboutSection}
+//         designScroll={goToDesignSection}
+//         filmScroll={goToFilmSection}
+//         audioScroll={goToAudioSection}
+//         contactScroll={goToContactSection}
+//       />
