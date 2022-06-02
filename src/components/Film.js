@@ -42,6 +42,7 @@ const Film = () => {
             }
             playing={inView}
             muted
+            loop
             playsinline
             width="100%"
             height="100%"
