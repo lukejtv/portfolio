@@ -3,7 +3,16 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="contact">
-      <div className="contact-container">
+
+    </div>
+  );
+};
+
+export default Contact;
+
+
+
+      {/* <div className="contact-container">
         <div className="contact-title-text">Contact</div>
         <div className="contact-sub-text">
           For freelance projects, portfolio questions, and more.
@@ -21,9 +30,4 @@ const Contact = () => {
         >
           Submit
         </button>
-      </div>
-    </div>
-  );
-};
-
-export default Contact;
+      </div> */}

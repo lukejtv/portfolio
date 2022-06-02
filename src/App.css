@@ -15,12 +15,6 @@ body {
   background-color: black;
 }
 
-.navigation {
-  background-color: black;
-  height: 100%;
-  width: 100%;
-}
-
 
 .about {
   background-color: black;
@@ -31,6 +25,7 @@ body {
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
+  overflow: hidden;
 }
 
 .design {
@@ -42,6 +37,7 @@ body {
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
+  overflow: hidden;
 }
 
 .film {
@@ -53,6 +49,7 @@ body {
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
+  overflow: hidden;
 }
 
 .audio {
@@ -64,6 +61,7 @@ body {
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
+  overflow: hidden;
 }
 
 .contact {
@@ -75,51 +73,37 @@ body {
   height: 100vh;
   width: 100vw;
   scroll-snap-align: start;
+  overflow: hidden;
 }
 
-.signature-video {
-  width: 90%;
-  height: 90vh;
-}
 
-.design-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.design-text {
-  display: flex;
-  flex-wrap: wrap;
-  color: white;
-  width: 45%;
-  font-size: 2vw;
-  flex-direction: column;
-  justify-content: center;
+.about-video {
+  width: 100%;
+  height: 100vh;
 }
 
 .design-video {
-  width: 70%;
-  height: 70vh;
+  width: 100%;
+  height: 100vh;
 }
-
 
 .film-video {
-  width: 90%;
-  height: 90vh;
+  width: 100%;
+  height: 100vh;
 }
 
-.audio-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-  height: 90%;
+.audio-video {
+  width: 100%;
+  height: 100vh;
 }
 
-.contact-container {
+
+
+
+
+
+
+/* .contact-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,7 +172,7 @@ body {
   border-radius: 6px;
   outline: none;
   border: 0px;
-} 
+}  */
 
 
 
