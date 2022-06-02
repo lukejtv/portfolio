@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9f5e49e2.css",
-    "main.js": "/portfolio/static/js/main.3ef4b8a1.js",
-    "static/media/FILM_MP4.mp4": "/portfolio/static/media/FILM_MP4.70bdac39d828560c7255.mp4",
-    "static/media/DESIGN_MP4.mp4": "/portfolio/static/media/DESIGN_MP4.37d6fafed1633df8d33b.mp4",
-    "static/media/AUDIO_MP4.mp4": "/portfolio/static/media/AUDIO_MP4.ed5120e5f9072837bb57.mp4",
-    "static/media/signature.mp4": "/portfolio/static/media/signature.b54ac449b93e19bbd307.mp4",
-    "static/media/DOT_MP4.mp4": "/portfolio/static/media/DOT_MP4.57b6950a376948259dee.mp4",
+    "main.css": "/portfolio/static/css/main.773649d0.css",
+    "main.js": "/portfolio/static/js/main.20e339f6.js",
+    "static/media/Film_FINAL.mp4": "/portfolio/static/media/Film_FINAL.eb42275a61cde7bde0ba.mp4",
+    "static/media/Film_vert.mp4": "/portfolio/static/media/Film_vert.ad702d415a2260028953.mp4",
+    "static/media/Design_vert.mp4": "/portfolio/static/media/Design_vert.769adf7f5e40913b7713.mp4",
+    "static/media/Design_FINAL.mp4": "/portfolio/static/media/Design_FINAL.2ac7bbd606fc7573556c.mp4",
+    "static/media/Audio_FINAL.mp4": "/portfolio/static/media/Audio_FINAL.290058e67dea079c0f5b.mp4",
+    "static/media/Audio_vert.mp4": "/portfolio/static/media/Audio_vert.d631e28e5d6cad949873.mp4",
+    "static/media/About_FINAL.mp4": "/portfolio/static/media/About_FINAL.4760da31aa62b6521964.mp4",
+    "static/media/About_vert.mp4": "/portfolio/static/media/About_vert.037aa15985ae58b18a62.mp4",
     "index.html": "/portfolio/index.html",
-    "main.9f5e49e2.css.map": "/portfolio/static/css/main.9f5e49e2.css.map",
-    "main.3ef4b8a1.js.map": "/portfolio/static/js/main.3ef4b8a1.js.map"
+    "main.773649d0.css.map": "/portfolio/static/css/main.773649d0.css.map",
+    "main.20e339f6.js.map": "/portfolio/static/js/main.20e339f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f5e49e2.css",
-    "static/js/main.3ef4b8a1.js"
+    "static/css/main.773649d0.css",
+    "static/js/main.20e339f6.js"
   ]
 }
