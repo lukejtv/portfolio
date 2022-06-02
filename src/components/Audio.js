@@ -54,28 +54,3 @@ const Audio = () => {
 
 export default Audio;
 
-{
-  /* <div className="audio-container">
-        <div className="audio-dot">
-          <ReactPlayer
-            url={DotAnimation}
-            playing={true}
-            loop
-            muted
-            playsinline
-            width="100%"
-            height="100%"
-          />
-        </div>
-        <div ref={ref} className="audio-video">
-          <ReactPlayer
-            url={AudioAnimation}
-            playing={inView}
-            muted
-            playsinline
-            width="100%"
-            height="100%"
-          />
-        </div>
-      </div> */
-}

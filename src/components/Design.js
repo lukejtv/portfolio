@@ -53,26 +53,3 @@ const Design = () => {
 };
 
 export default Design;
-
-{
-  /* <div ref={ref} className="design-container">
-        <div className="design-video">
-          <ReactPlayer
-            url={DesignAnimation}
-            playing={inView}
-            loop
-            muted
-            playsinline
-            width="100%"
-            height="100%"
-          />
-        </div>
-        <div className="design-text">
-          <div style={{ fontWeight: "bold", paddingBottom: 20 }}>
-            What makes a Luke J design?
-          </div>
-          <div>Simply intuitive & intuitively simple.</div>
-          <div> You name it, he can create something unique and exciting.</div>
-        </div>
-      </div> */
-}

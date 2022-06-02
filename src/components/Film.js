@@ -53,17 +53,3 @@ const Film = () => {
 };
 
 export default Film;
-
-{
-  /* <div ref={ref} className="film-video">
-        <ReactPlayer
-          url={FilmAnimation}
-          playing={inView}
-          muted
-          loop
-          playsinline
-          width="100%"
-          height="100%"
-        />
-      </div> */
-}
