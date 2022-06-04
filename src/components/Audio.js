@@ -32,25 +32,23 @@ const Audio = () => {
 
   return (
     <div className="audio">
-      <div className="audio-container">
-        <div ref={ref} className={"audio-video"}>
-          <ReactPlayer
-            url={
-              windowDimenion.winWidth >= windowDimenion.winHeight
-                ? AudioAnimHori
-                : AudioAnimVert
-            }
-            playing={inView}
-            muted
-            playsinline
-            width="100%"
-            height="100%"
-          />
-        </div>
+      <div ref={ref} className="marker" />
+      <div className="audio-video">
+        <ReactPlayer
+          url={
+            windowDimenion.winWidth >= windowDimenion.winHeight
+              ? AudioAnimHori
+              : AudioAnimVert
+          }
+          playing={inView}
+          muted
+          playsinline
+          width="100%"
+          height="100%"
+        />
       </div>
     </div>
   );
 };
 
 export default Audio;
-

@@ -32,22 +32,21 @@ const Film = () => {
 
   return (
     <div className="film">
-      <div className="film-container">
-        <div ref={ref} className={"film-video"}>
-          <ReactPlayer
-            url={
-              windowDimenion.winWidth >= windowDimenion.winHeight
-                ? FilmAnimHori
-                : FilmAnimVert
-            }
-            playing={inView}
-            muted
-            loop
-            playsinline
-            width="100%"
-            height="100%"
-          />
-        </div>
+      <div ref={ref} className="marker" />
+      <div className="film-video">
+        <ReactPlayer
+          url={
+            windowDimenion.winWidth >= windowDimenion.winHeight
+              ? FilmAnimHori
+              : FilmAnimVert
+          }
+          playing={inView}
+          muted
+          loop
+          playsinline
+          width="100%"
+          height="100%"
+        />
       </div>
     </div>
   );

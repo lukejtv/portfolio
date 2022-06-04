@@ -32,22 +32,21 @@ const Design = () => {
 
   return (
     <div className="design">
-      <div className="design-container">
-        <div ref={ref} className={"design-video"}>
-          <ReactPlayer
-            url={
-              windowDimenion.winWidth >= windowDimenion.winHeight
-                ? DesignAnimHori
-                : DesignAnimVert
-            }
-            playing={inView}
-            muted
-            loop
-            playsinline
-            width="100%"
-            height="100%"
-          />
-        </div>
+      <div ref={ref} className="marker" />
+      <div className="design-video">
+        <ReactPlayer
+          url={
+            windowDimenion.winWidth >= windowDimenion.winHeight
+              ? DesignAnimHori
+              : DesignAnimVert
+          }
+          playing={inView}
+          muted
+          loop
+          playsinline
+          width="100%"
+          height="100%"
+        />
       </div>
     </div>
   );

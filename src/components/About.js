@@ -31,7 +31,8 @@ const About = () => {
 
   return (
     <div className="about">
-      <div ref={ref} className={"about-video"}>
+      <div ref={ref} className="marker"/>
+      <div className="about-video">
         <ReactPlayer
           url={
             windowDimenion.winWidth >= windowDimenion.winHeight
