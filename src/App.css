@@ -72,9 +72,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  scroll-snap-align: start;
-  color: white;
-  font-size: 8vw;
+  scroll-snap-align: end;
   overflow: scroll;
 }
 
@@ -144,6 +142,15 @@ body {
   box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
 }
 
+.contact-name-email-subject:hover{
+  box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+}
+.contact-name-email-subject:focus{
+  background: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 3px;
+}
+
 .contact-message {
   width: 100%;
   padding: 1%;
@@ -159,6 +166,15 @@ body {
   border-radius: 6px;
   outline: none;
   box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+}
+
+.contact-message:hover{
+  box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 2px;
+}
+.contact-message:focus{
+  background: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 0 #fff inset, #1de9b6 0 0 0 3px;
 }
 
 .contact-submit {
@@ -232,9 +248,14 @@ body {
     flex-direction: column;
     align-items: flex-start;
     width: 90%;
-    height: 100vh;
+    height: 90vh;
   }
 }
+
+
+
+
+
 
 
 

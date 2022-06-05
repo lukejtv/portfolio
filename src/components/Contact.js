@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="contact">
-      {/* <div className="contact-container">
+      <div className="contact-container">
         <div>
           <div className="contact-title-text">Contact.</div>
           <div className="contact-sub-text">
@@ -20,8 +20,7 @@ const Contact = () => {
         <div className="credit">
           Website Designed by LUKEJ | Engineered by CHASE RENSBERGER
         </div>
-      </div> */}
-      Hey
+      </div>
     </div>
   );
 };
