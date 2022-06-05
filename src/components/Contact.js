@@ -10,11 +10,13 @@ const Contact = () => {
             For portfolio questions, freelance projects, and more.
           </div>
         </div>
-        <input className="contact-name-email-subject" placeholder="Name" />
-        <input className="contact-name-email-subject" placeholder="Email" />
-        <input className="contact-name-email-subject" placeholder="Subject" />
-        <textarea className="contact-message" placeholder="Message" />
-        <button className="contact-submit">Submit.</button>
+        <div className="contact-form">
+          <input className="contact-name-email-subject" placeholder="Name" />
+          <input className="contact-name-email-subject" placeholder="Email" />
+          <input className="contact-name-email-subject" placeholder="Subject" />
+          <textarea className="contact-message" placeholder="Message" />
+          <button className="contact-submit">Submit.</button>
+        </div>
         <div className="credit">
           Website Designed by LUKEJ | Engineered by CHASE RENSBERGER
         </div>
