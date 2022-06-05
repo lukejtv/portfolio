@@ -17,9 +17,9 @@ const Contact = () => {
           <textarea className="contact-message" placeholder="Message" />
           <button className="contact-submit">Submit.</button>
         </div>
-        <div className="credit">
+        {/* <div className="credit">
           Website Designed by LUKEJ | Engineered by CHASE RENSBERGER
-        </div>
+        </div> */}
       </div>
     </div>
   );
