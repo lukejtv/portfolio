@@ -221,6 +221,9 @@ body {
   .credit {
     color: white;
     font-size: 2vw;
+    align-self: center;
+    position: absolute;
+    top: 495vh;
   }
   .contact-container {
     display: flex;
