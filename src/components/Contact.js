@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="contact">
       <div className="contact-container">
         <div>
-          <div className="contact-title-text">Contact.</div>
+          <div className="contact-title-text">Contact. IN PROGRESS</div>
           <div className="contact-sub-text">
             For portfolio questions, freelance projects, and more.
           </div>
