@@ -28,9 +28,9 @@ const Contact = () => {
           </div>
         </div>
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
-          <input className="contact-name-email-subject" placeholder="Name" type="text" name="name" autoFocus/>
-          <input className="contact-name-email-subject" placeholder="Email" type="email" name="email" autoFocus/>
-          <input className="contact-name-email-subject" placeholder="Subject" name="subject" autoFocus/>
+          <input className="contact-name-email-subject" placeholder="Name" type="text" name="name" />
+          <input className="contact-name-email-subject" placeholder="Email" type="email" name="email" />
+          <input className="contact-name-email-subject" placeholder="Subject" name="subject" />
           <textarea className="contact-message" placeholder="Message" name="message" autoFocus/>
           <button className="contact-submit" type="submit" value="Send">Submit.</button>
         </form>
