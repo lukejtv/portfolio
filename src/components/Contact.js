@@ -31,7 +31,7 @@ const Contact = () => {
           <input className="contact-name-email-subject" placeholder="Name" type="text" name="name" />
           <input className="contact-name-email-subject" placeholder="Email" type="email" name="email" />
           <input className="contact-name-email-subject" placeholder="Subject" name="subject" />
-          <textarea className="contact-message" placeholder="Message" name="message" autoFocus/>
+          <textarea className="contact-message" placeholder="Message" name="message"/>
           <button className="contact-submit" type="submit" value="Send">Submit.</button>
         </form>
         <div className="credit">
