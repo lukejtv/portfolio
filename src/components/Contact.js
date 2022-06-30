@@ -1,5 +1,6 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
 
@@ -15,11 +16,12 @@ const Contact = () => {
           console.log(error.text);
       });
       e.target.reset();
-      alert('Message sent successfully.');
+      toast.success("Message Sent Successfully")
   };
 
   return (
     <div className="contact">
+      <Toaster />
       <div className="contact-container">
         <div>
           <div className="contact-title-text">Contact.</div>
@@ -28,10 +30,10 @@ const Contact = () => {
           </div>
         </div>
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
-          <input className="contact-name-email-subject" placeholder="Name" type="text" name="name" />
-          <input className="contact-name-email-subject" placeholder="Email" type="email" name="email" />
-          <input className="contact-name-email-subject" placeholder="Subject" name="subject" />
-          <textarea className="contact-message" placeholder="Message" name="message"/>
+          <input className="contact-name-email-subject" placeholder="Name" type="text" name="name" required/>
+          <input className="contact-name-email-subject" placeholder="Email" type="email" name="email" required/>
+          <input className="contact-name-email-subject" placeholder="Subject" type="text" name="subject" required/>
+          <textarea className="contact-message" placeholder="Message" type="text" name="message" required/>
           <button className="contact-submit" type="submit" value="Send">Submit.</button>
         </form>
         <div className="credit">
